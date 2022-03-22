@@ -3,7 +3,7 @@ class Jogo {
     this._alfabeto = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z";
     this._letrasErradas = [];
     this.letrasCertas = [' '];
-    let _palavras = ["JULIO CESAR"];
+    let _palavras = ['WAGNER','MARIA','FLAVIA','JULIO CESAR'];
     this._palavraSecreta =
       _palavras[Math.floor(Math.random() * _palavras.length)];
     this._fimJogo = false;
