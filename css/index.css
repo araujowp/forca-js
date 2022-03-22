@@ -1,0 +1,70 @@
+body {
+    font-family: "Times New Roman", sans-serif;
+    /* background: rgb(201, 220, 241); */
+    color: #3498db;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.fundo {
+    background: rgb(156, 231, 231);
+    /* width: 80vw; */
+    /* height: 210px; */
+}
+
+.camada2 {
+    top: 100;
+    left: 800;
+    position: absolute;
+    /* height: 150px; */
+    background: yellow;
+    /* width: 200px; */
+}
+
+.ativo{
+    border: 1px solid #3498db;
+    background: none;
+    padding: 9px 8px;
+    font-size: 20px;
+    font-family: "Arial";
+    color: #3498db;
+    cursor:pointer;
+    /* margin:10px; */
+    transition: 0.8s all linear;
+    position:relative;
+    overflow: hidden;
+    cursor:pointer;
+  }
+
+  .certo{
+    border: 1px solid #3498db;
+    background: #3498db;
+    padding: 9px 8px;
+    font-size: 20px;
+    font-family: "Arial";
+    color: white;
+    cursor:pointer;
+    /* margin:10px; */
+    transition: 0.8s all linear;
+    position:relative;
+    overflow: hidden;
+  }
+
+  .errado{
+    border: 1px solid red;
+    background: red;
+    padding: 9px 8px;
+    font-size: 20px;
+    font-family: "Arial";
+    color: white;
+    cursor:pointer;
+    /* margin:10px; */
+    transition: 0.8s all linear;
+    position:relative;
+    overflow: hidden;
+  }

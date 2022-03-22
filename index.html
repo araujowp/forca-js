@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title>jogo da forca</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <h2>Selecione uma letra</h2>
+    <div>
+        <img src="imagens/forca.png" class="fundo">
+        <img id="boneco" src="imagens/boneco0.jpg" class="camada2">
+    </div>
+    <h2>
+        <div id="secreta">secreta</div>
+        <br>
+        <div id="alfabeto"></div>
+    </h2>
+</body>
+    <script src="js/jogo.js" ></script>
+    <script src="js/Son.js"></script>
+    <script>
+        let jogo = new Jogo();
+        jogo.atualizar();
+    </script>
+</html>
