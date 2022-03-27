@@ -1,6 +1,5 @@
 class Son {
   static acerto() {
-      console.log('acertamos wagner');
     this._play("sons/confirm-jingle.wav");
   }
 
